@@ -63,9 +63,9 @@ export default function LocationPage() {
         }
       },
       {
-        enableHighAccuracy: true,
-        timeout: 10000,
-        maximumAge: 0,
+        enableHighAccuracy: false,  // faster, less accurate
+        timeout: 30000,             // 30 seconds
+        maximumAge: 60000,          // use cached location if < 1 min old
       }
     );
   };
