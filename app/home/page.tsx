@@ -99,6 +99,7 @@ function HomeContent() {
             }
             interval={3000}
             className="flex-1"
+            textClassName="text-[10px] md:text-sm"
           />
         </div>
       </div>
@@ -118,7 +119,7 @@ function HomeContent() {
 
       {/* Footer */}
       <p className="text-center text-xs text-white/30 mt-10">
-        Extroverts 2026 | v1.8.5 | Himanshu
+        Extroverts 2026 | v1.8.5 | Udit
       </p>
 
       {/* Bottom nav when logged in */}
