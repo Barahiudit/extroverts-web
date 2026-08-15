@@ -1,0 +1,16 @@
+export const PRONOUNS = [
+  "he",
+  "him",
+  "his",
+  "she",
+  "her",
+  "hers",
+  "they",
+  "them",
+  "theirs",
+  "ze",
+  "zir",
+  "zirs",
+  "ve",
+  "ver",
+];
