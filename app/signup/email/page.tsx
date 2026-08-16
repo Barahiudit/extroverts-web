@@ -66,7 +66,7 @@ export default function EmailPage() {
         onSubmit={handleSubmit(onSubmit)}
         className="flex-1 px-6 pt-8 flex flex-col"
       >
-        <h1 className="text-3xl font-extrabold mb-8">Enter your email</h1>
+        <h1 className="sm:text-[1.04rem] md:text-[1.4rem] font-extrabold mb-8">Enter your email</h1>
 
         <Input
           label="Email"
